@@ -14,6 +14,5 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Notes: 
 ======
 - Features in input data are normalized and bounded within [-1,1].
-- Each input feature vector is a row on the text file.
 
 For more information regading the project please contact: er.pallav.gupta@gmail.com
