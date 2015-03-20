@@ -9,6 +9,8 @@ These variables are selected by extracting only the measurements on the mean and
 3. For script to run properly input data should be present in the working directory. Input data can be obtained by extracting the below zip file in your R working directory.
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
+4. This script requires "dplyr" packages.If you don't have dplyr package install in your R environment, please install it using the below command in your R console before running run_analysis.R:<br>
+install.packages("dplyr")
 
 
 Notes: 
