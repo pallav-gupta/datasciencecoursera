@@ -36,6 +36,112 @@ Variables Used in run_analysis.R
 12. mean_ds:<br>
   Data set with the average of each variable for each activity and each subject
 
+# DATA DICTIONARY - tidyData.txt#
+The file tidyData.txt is created as an output of run_analysis.R
+The file contains total of 81 columns. 
+First column "activity" denotes the descriptive activity names.
+Second column "subject" identifies the subject who performed the activity.Its range is from 1 to 30.
+Remaining columns are derived in two steps:
+1. selected only the measurements on the mean and standard deviation for each measurement from input data.
+2. Calculate average of each variable from the previous step, for each activity and each subject. 
+
+prefix "time" denote time based measurements whereas prefix of "fft" denotes Fast Fourier Transform (FFT) based measurements.
+"Acc" and "Gyro" in the name denotes accelerometer and gyroscope 3-axial raw signals respectively. Whereas -XYZ denotes the three axis.
+"Mean" in the name denotes the columns derived from the columns that represents mean values from the input data.
+"Std" in the name denotes the columns derived from the columns that represents Standard deviation values from the input data
+
+A full description of input data is available at the site where the data was obtained: 
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+Please refer below zip file for the input data used in this project:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Below is a full list of all features in the output file tidyData.txt:<br>
+"activity"   
+"subject"                       
+"timeBodyAccMean()-X"               
+"timeBodyAccMean()-Z"               
+"timeBodyAccStd()-Y"                
+"timeGravityAccMean()-X"               
+"timeGravityAccMean()-Z"               
+"timeGravityAccStd()-Y"                
+"timeBodyAccJerkMean()-X"           
+"timeBodyAccJerkMean()-Z"           
+"timeBodyAccJerkStd()-Y"            
+"timeBodyGyroMean()-X"              
+"timeBodyGyroMean()-Z"              
+"timeBodyGyroStd()-Y"               
+"timeBodyGyroJerkMean()-X"          
+"timeBodyGyroJerkMean()-Z"          
+"timeBodyGyroJerkStd()-Y"           
+"timeBodyAccMagMean()"              
+"tGravityAccMagMean()"              
+"timeBodyAccJerkMagMean()"          
+"timeBodyGyroMagMean()"             
+"timeBodyGyroJerkMagMean()"         
+"fftBodyAccMean()-X"                
+"fftBodyAccMean()-Z"                
+"fftBodyAccStd()-Y"                 
+"fftBodyAccMeanFreq()-X"            
+"fftBodyAccMeanFreq()-Z"            
+"fftBodyAccJerkMean()-Y"            
+"fftBodyAccJerkStd()-X"             
+"fftBodyAccJerkStd()-Z"             
+"fftBodyAccJerkMeanFreq()-Y"        
+"fftBodyGyroMean()-X"               
+"fftBodyGyroMean()-Z"               
+"fftBodyGyroStd()-Y"                
+"fftBodyGyroMeanFreq()-X"           
+"fftBodyGyroMeanFreq()-Z"           
+"fftBodyAccMagStd()"                
+"fftBodyBodyAccJerkMagMean()"       
+"fftBodyBodyAccJerkMagMeanFreq()"   
+"fftBodyBodyGyroMagStd()"           
+"fftBodyBodyGyroJerkMagMean()"      
+"fftBodyBodyGyroJerkMagMeanFreq()"
+"timeBodyAccMean()-Y"            
+"timeBodyAccStd()-X"             
+"timeBodyAccStd()-Z"             
+"timeGravityAccMean()-Y"            
+"timeGravityAccStd()-X"             
+"timeGravityAccStd()-Z"             
+"timeBodyAccJerkMean()-Y"        
+"timeBodyAccJerkStd()-X"         
+"timeBodyAccJerkStd()-Z"         
+"timeBodyGyroMean()-Y"           
+"timeBodyGyroStd()-X"            
+"timeBodyGyroStd()-Z"            
+"timeBodyGyroJerkMean()-Y"       
+"timeBodyGyroJerkStd()-X"        
+"timeBodyGyroJerkStd()-Z"        
+"timeBodyAccMagStd()"            
+"timeGravityAccMagStd()"            
+"timeBodyAccJerkMagStd()"        
+"timeBodyGyroMagStd()"           
+"timeBodyGyroJerkMagStd()"       
+"fftBodyAccMean()-Y"             
+"fftBodyAccStd()-X"              
+"fftBodyAccStd()-Z"              
+"fftBodyAccMeanFreq()-Y"         
+"fftBodyAccJerkMean()-X"         
+"fftBodyAccJerkMean()-Z"         
+"fftBodyAccJerkStd()-Y"          
+"fftBodyAccJerkMeanFreq()-X"     
+"fftBodyAccJerkMeanFreq()-Z"     
+"fftBodyGyroMean()-Y"            
+"fftBodyGyroStd()-X"             
+"fftBodyGyroStd()-Z"             
+"fftBodyGyroMeanFreq()-Y"        
+"fftBodyAccMagMean()"            
+"fftBodyAccMagMeanFreq()"        
+"fftBodyBodyAccJerkMagStd()"     
+"fftBodyBodyGyroMagMean()"       
+"fftBodyBodyGyroMagMeanFreq()"   
+"fftBodyBodyGyroJerkMagStd()"    
+
+
 
 
   
