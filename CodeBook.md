@@ -34,7 +34,7 @@ Variables Used in run_analysis.R
   each row identifies the subject who performed the activity for each row in ds dataset. Its range is from 1 to 30. 
 11. colnames
   This is a temparory variable that is used to transform the column labels in the data set with descriptive variable names.
-  
-  
+12. mean_ds
+  Data set with the average of each variable for each activity and each subject
 
   
